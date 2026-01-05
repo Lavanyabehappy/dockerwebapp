@@ -3,7 +3,7 @@ version: "3"
 services:
  devopsdb:
   image: shaikmustafa/valluri:dbimage
-   ports:
+  ports:
      - "3306:3306"
 
  application:
